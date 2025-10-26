@@ -1,0 +1,6 @@
+number = int(input())
+summa = sum(map(int, str(number)))
+if summa % 2 == 0:
+    print(True)
+else:
+    print(False)
