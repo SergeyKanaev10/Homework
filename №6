@@ -1,0 +1,7 @@
+s = int(input())
+e = 0
+while s != 0:
+  if s % 2 == 0:
+    e =+ 1
+  s =- 1
+print(e)
