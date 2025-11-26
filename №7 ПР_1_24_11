@@ -6,7 +6,5 @@ while d != 0:
         break
     if s > d:
         e += 1
-        d = int(input())
-    else:
-        d == s
+    d = s
 print(e)
